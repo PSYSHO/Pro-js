@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+h1{
+    color: brown;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 20px;
+}
+
+.wrapper{
+    border: 5px solid brown;
+    background-color: bisque;
+}
+
+.form-box{
+    display: flex;
+    align-content: center;
+    margin-left: 50px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin: 20px 0 20px;
+}
+ 
+.title{
+    margin: 0;
+    padding-bottom: 10px;
+} 
+
+.btn-box{
+    margin: 20px 0 20px;
+}
+
+.button{
+    padding: 10px 5px 10px;
+    background-color: rgb(175, 76, 76);
+}
+
+.order-box, .cook-name-list{
+    min-width: 800px;
+    height: 150px;
+    border: 5px solid brown;
+
+}
+
+.orders-box{
+    min-width: 800px;
+    height: 300px;
+    border: 5px solid brown;
+
+}
+
+hr{
+    min-width: 800px;
+    border: 2px solid brown;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+}

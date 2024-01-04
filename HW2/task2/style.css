@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: bisque;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 30px;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+label {
+    font-size: 20px;
+    color:rgb(175, 76, 76);
+}
+
+.button{
+    padding: 10px 5px 10px;
+    background-color: rgb(175, 76, 76);
+}
+
+h1{
+    font-size: 40px;
+    color:rgb(175, 76, 76);
+}
+
+h3{
+    font-size: 20px;
+    color:rgb(175, 76, 76);
+    margin-bottom: 20px;
+}
+
+.input-name{
+    border: 1px solid rgb(175, 76, 76);
+}
+
+.textarea {
+    margin-bottom: 30px;
+    border: 1px solid rgb(175, 76, 76);
+    width:300px;
+    height:150px;
+}
+
+.reviews_item {
+    margin-bottom: 20px;
+}

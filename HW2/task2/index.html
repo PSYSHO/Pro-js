@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HW2 task2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper center">
+            <h1 class="title">
+                <strong>Выбери товар и оставьте свой отзыв</strong>
+            </h1>
+            <div class="goods-choice">
+                <form id="form" action="#">
+                    <input
+                        type="radio"
+                        name="choice"
+                        id="product 1"
+                        value="apple"
+                        required
+                    >
+                    Apple iPhone 13
+                    <br>
+                    <br>
+                    <input
+                        type="radio"
+                        name="choice"
+                        id="product 2"
+                        value="samsung"
+                        required
+                    >
+                    Samsung Galaxy Z Fold 3
+                    <br>
+                    <br>
+                    <input
+                        type="radio"
+                        name="choice"
+                        id="product 3"
+                        value="sony"
+                        required
+                    >
+                    Sony PlayStation 5
+                    <br>
+                    <br>
+                    <label for="get-name">
+                        <strong>Введите Ваше имя:</strong>
+                        <input
+                            class="input-name"
+                            type="text"
+                            size="40"
+                            name="get-name"
+                            id="get-name"
+                        >
+                    </label>
+                    <br>
+                    <br>
+                    <label class="label" for="review">
+                        <strong>Текст отзыва</strong>
+                    </label>
+                    <br>
+                    <br>
+                    <textarea class="textarea" id="review"></textarea>
+                    <br>
+                    <button class="button" type="button">Оставить отзыв</button>
+                </form>
+            </div>
+            <section class="reviews">
+                <h3 class="reviews_title">Отзывы о товаре:</h3>
+                <div class="reviews_items"></div>
+            </section>
+        </div>
+        <script src="task2.js"></script>
+    </body>
+</html>

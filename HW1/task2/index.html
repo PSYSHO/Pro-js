@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet"> -->
+        <title>restaurant "Incanto"</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper center">
+            <h1>Добро пожаловать в ресторан "Incanto"!</h1>
+            <div class="form-box">
+                <form name="form" class="forma">
+                    <label for="get-name">
+                        <strong>Введите Ваше имя:</strong>
+                        <input
+                            type="text"
+                            size="40"
+                            name="get-name"
+                            id="get-name"
+                        >
+                    </label>
+                    <fieldset class="menu">
+                        <legend class="title">
+                            <strong>Выберите блюдо:</strong>
+                        </legend>
+                        <label for="margarita" class="checkbox-label">
+                            <input
+                                type="checkbox"
+                                name="margarita"
+                                id="margarita"
+                                value='Пицца "Маргарита"'
+                            >
+                            Пицца "Маргарита"
+                        </label>
+                        <label for="peperoni" class="checkbox-label">
+                            <input
+                                type="checkbox"
+                                name="peperoni"
+                                id="peperoni"
+                                value='Пицца "Пепперони"'
+                            >
+                            Пицца "Пепперони"
+                        </label>
+                        <label for="filadelphia" class="checkbox-label">
+                            <input
+                                type="checkbox"
+                                name="filadelphia"
+                                id="filadelphia"
+                                value='Суши "Филадельфия"'
+                            >
+                            Суши "Филадельфия"
+                        </label>
+                        <label for="california" class="checkbox-label">
+                            <input
+                                type="checkbox"
+                                name="california"
+                                id="california"
+                                value='Суши "Калифорния"'
+                            >
+                            Суши "Калифорния"
+                        </label>
+                        <label for="tiramisu" class="checkbox-label">
+                            <input
+                                type="checkbox"
+                                name="tiramisu"
+                                value='Десерт "Тирамису"'
+                                id="tiramisu"
+                            >
+                            Десерт "Тирамису"
+                        </label>
+                        <label for="cheesecake" class="checkbox-label">
+                            <input
+                                type="checkbox"
+                                name="cheesecake"
+                                id="cheesecake"
+                                value='Десерт "Чизкейк"'
+                            >
+                            Десерт "Чизкейк"
+                        </label>
+                    </fieldset>
+                    <div class="btn-box">
+                        <button class="button" type="submit" name="make-order">Оформить заказ</button>
+                    </div>
+                    <p class="title">
+                        <strong>ВАШ ЗАКАЗ:</strong>
+                    </p>
+                    <div class="order-box">
+                        <p class="your-order"></p>
+                    </div>
+                    <br>
+                    <p class="title">
+                        <strong>ПОВАРА, ПРИГОТОВИВШИЕ ВЫБРАННЫЕ ВАМИ БЛЮДА:</strong>
+                    </p>
+                    <div class="cook-box">
+                        <ul class="cook-name-list"></ul>
+                    </div>
+                    <div class="btn-box">
+                        <button class="button" type="button" name="watch-cook">Посмотреть повара</button>
+                    </div>
+                    <div class="btn-box">
+                        <button class="button" type="button" name="clear-order">Очистить форму</button>
+                    </div>
+                    <hr>
+                    <br>
+                    <p class="title">
+                        <strong>ПОСМОТРЕТЬ ВСЕ ЗАКАЗЫ:</strong>
+                    </p>
+                    <div class="orders-box">
+                        <ul class="your-orders"></ul>
+                    </div>
+                    <div class="btn-box">
+                        <button class="button" type="button" name="show-all-orders">Посмотреть заказы</button>
+                    </div>
+                    <div class="btn-box">
+                        <button class="button" type="button" name="clear-all-orders">Очистить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
