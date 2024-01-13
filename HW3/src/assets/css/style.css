@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #F6F9F9;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+	gap: 100px;
+	justify-content: space-between;
+}
+
+.icon-title-box {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	align-items: center;
+}
+
+.icon-title-box__logo {
+	width: 56px;
+	height: auto;
+}
+
+.icon-title-box__title {
+	font-size: 45px;
+	color: #2B415E;
+}
+
+.navigation {
+	display: flex;
+}
+
+.navigation__list {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	align-items: center;
+}
+
+.navigation__link {
+	color: #2B415E;
+}
+
+.container {
+	margin-top: 50px;
+}
+
+.center {
+	padding-left: calc(50% - 570px);
+	padding-right: calc(50% - 570px);
+}
+
+.form p {
+	margin-bottom: 20px;
+}
+
+.form label {
+	width: 180px;
+	float: left;
+	color: #999;
+	padding-top: 5px;
+}
+
+.form input {
+	width: 400px;
+}
+
+.form textarea {
+	width: 400px;
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	max-width: 400px;
+	min-width: 400px;
+	line-height: 150%;
+}
+
+.form input, .form textarea, .review_remove-button {
+	padding: 9px;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.form input:hover, .form textarea:hover, .form input:focus, .form textarea:focus, .review_remove-button:focus {
+	border-color: #C9C9C9;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.form .submit input, .review_remove-button {
+	width: auto;
+	background: #617798;
+	color: #FFF;
+	padding: 9px 15px;
+	border: 0;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.form .submit input:hover {
+	background: #2B415E;
+}
+
+.review_text, .label-text {
+	font-size: 18px;
+	color: #999;
+}
+
+.review_summary {
+	font-size: 35px;
+	color: #2B415E;
+}
+
+.review_box {
+	display: grid;
+	grid-template-columns: 1fr 100px;
+	grid-template-rows: 0fr 0fr;
+	gap: 20px
+}
+
+details {
+	color: black;
+	background-color: #FFF;
+	padding: 1em;
+	margin: 0.5em;
+	border-radius: 5px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+summary {
+	padding: 0.5em;
+	border-radius: 1em;
+	outline: none;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	cursor: pointer;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/assets/css/style.css">
+        <script type="module" src="./home.js" defer></script>
+        <title>True Reviews</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="icon-title-box">
+                <img class="icon-title-box__logo" src="./src/assets/images/logo.jpg"  alt="logo">
+                <h1 class="icon-title-box__title">Ваши честные отзывы</h1>
+            </div>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li><a class="navigation__link" href="#">ГЛАВНАЯ</a></li>
+                    <li><a class="navigation__link" href="reviews.html">ОТЗЫВЫ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container center">
+            <form class="form">
+                <p>
+                    <label for="productname" class="label-text">Введите наименование продукта:</label>
+                    <input type="text" name="productname" id="productname">
+                </p>
+                <p>
+                    <label for="review" class="label-text"> Оставьте отзыв о продукте:</label>
+                    <textarea rows="10" name="review" id="review" class="textarea"></textarea>
+                </p>
+                <p class="submit">
+                    <input type="submit" value="Добавить отзыв" class="addButton">
+                </p>
+            </form>
+        </main>
+    </body>
+</html>
